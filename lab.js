@@ -40,11 +40,15 @@ if(amysAge > brittanisAge){
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-//CODE HERE
+if(amysBirthYear === brittanisBirthYear){
+  console.log(`Amy and Brittani were born in the same year.`);
+} else {
+  console.log('Amy and Brittani were not born in the same year.');
+}
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+let temperature = 85;
 let rain = true;
 
 /*
@@ -52,7 +56,7 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
+CODE HERE
 
 ////////// PROBLEM 5 //////////
 
